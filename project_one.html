@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>project one</title>
+
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "project_one.css" />
+   
+ </head>
+ 
+ <body>
+<h1> Welcome, Please Input How Many of Each Type of Ticket You Would Like</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Ticket One</th>
+    <th>Ticket Two</th>
+    <th>Ticket Three</th>
+	<th>Ticket Four</th>
+  </tr>
+  <tr>
+    <th>Price  $</th>
+    <th>Price  $</th>
+    <th>Price  $</th>
+	<th>Price  $</th>
+  </tr>  <tr>
+    <td> <fieldset>
+		<p>
+          <label>Quantity</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "0" />
+		</p>
+</fieldset></td>
+    <td> <fieldset>
+		<p>
+          <label>Quantity</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "0" />
+		</p>
+</fieldset></td>
+    <td> <fieldset>
+		<p>
+          <label>Quantity</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "0" />
+		</p>
+</fieldset></td>
+	<td> <fieldset>
+		<p>
+          <label>Quantity</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "0" />
+		</p>
+</fieldset></td>
+  </tr>
+</table>
+
+<button class="button"; onclick="myFunction()">Total Price</button>
+
+<p id="total"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("total").innerHTML ="Here is your total: ";
+}
+</script> 
